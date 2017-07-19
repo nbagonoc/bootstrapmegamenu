@@ -1,0 +1,73 @@
+body{/*fix fixed-top issude*/
+	padding-top: 50px;
+}
+
+.container-fluid{/*fix for padding left and right, for fluid container not being 100%*/
+	padding: 0 !important;
+}
+
+
+/* Navigation Grid demo styles */
+.megaMenuGrid {
+  padding: 10px 30px;
+}
+  .megaMenuGrid [class*="col-"] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2;
+    background-color: #e5e1ea;
+    border: 1px solid #d1d1d1;
+  }
+
+/*MEDIA QUERIES*/
+
+/*extra small*/
+@media(max-width:767px){
+}
+
+/*small*/
+@media(min-width:768px){
+	/*navigation*/
+	.navbar .container{
+		position: relative !important;
+		height: 100px;
+	}
+	.mainMenu{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+	}
+}
+
+/*medium*/
+@media(min-width:992px){
+	/*navigation*/
+	.navbar .container{
+		position: relative !important;
+		height: 100px;
+	}
+	.mainMenu{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+	}
+}
+
+/*large*/
+@media(min-width:1200px){
+	/*navigation*/
+	.navbar .container{
+		position: relative !important;
+		height: 100px;
+	}
+	.mainMenu{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+	}
+}
